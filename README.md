@@ -25,3 +25,7 @@ Code muss in allen Containern geschrieben werden, wobei der Code für die Datenb
 Das System besteht aus den in folgendem Bild sichtbaren Komponenten.
 
 ![](docs/Images/Components.png)
+
+### Domain Model
+
+![](docs/Images/Domain_Model.png)
