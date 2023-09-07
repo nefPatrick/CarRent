@@ -13,8 +13,10 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Customer\Domain\" />
-    <Folder Include="Customer\Infrastructure\" />
+    <Folder Include="CustomerManagement\Api\Models\" />
+    <Folder Include="CustomerManagement\Domain\" />
+    <Folder Include="CustomerManagement\Infrastructure\Persistence\" />
+    <Folder Include="General\Infrastructure\Persistence\" />
   </ItemGroup>
 
 </Project>
