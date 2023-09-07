@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Zbw.CarRent.CustomerManagement.Api.Models;
 using Zbw.CarRent.CustomerManagement.Domain;
+using Zbw.CarRent.General.Infrastructure.Persistence;
 
 namespace Zbw.CarRent.CustomerManagement.Api {
 
@@ -8,9 +9,9 @@ namespace Zbw.CarRent.CustomerManagement.Api {
   [ApiController]
   public class CustomerController : ControllerBase {
 
-    private readonly ICustomerRepository _repository;
+    private readonly IRepository<Customer> _repository;
 
-    public CustomerController(ICustomerRepository repository) {
+    public CustomerController(IRepository<Customer> repository) {
       ArgumentNullException.ThrowIfNull(repository, nameof(repository));
       _repository = repository;
     }

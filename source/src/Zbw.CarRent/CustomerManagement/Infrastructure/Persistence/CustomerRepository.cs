@@ -2,7 +2,7 @@
 using Zbw.CarRent.General.Infrastructure.Persistence;
 
 namespace Zbw.CarRent.CustomerManagement.Infrastructure.Persistence {
-  public class CustomerRepository : ICustomerRepository {
+  public class CustomerRepository : IRepository<Customer> {
 
     private readonly CarRentContext _context;
 
@@ -10,8 +10,8 @@ namespace Zbw.CarRent.CustomerManagement.Infrastructure.Persistence {
       _context = context;
     }
 
-    public void Add(Customer customer) {
-      _context.Add(customer);
+    public void Add(Customer value) {
+      _context.Add(value);
       _context.SaveChanges();
     }
 
@@ -30,8 +30,8 @@ namespace Zbw.CarRent.CustomerManagement.Infrastructure.Persistence {
       _context.SaveChanges();
     }
 
-    public void Update(Customer customer) {
-      _context.Customers.Update(customer);
+    public void Update(Customer value) {
+      _context.Customers.Update(value);
       _context.SaveChanges();
     }
   }
