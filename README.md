@@ -20,3 +20,8 @@ Code muss in allen Containern geschrieben werden, wobei der Code für die Datenb
 
 ![](docs/Images/Container.png)
 
+### Components
+
+Das System besteht aus den in folgendem Bild sichtbaren Komponenten.
+
+![](docs/Images/Components.png)
