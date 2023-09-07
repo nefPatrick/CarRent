@@ -10,6 +10,8 @@ Es soll ein neues Autovermeitungssystem "CarRent" erstellt werden. Von folgenden
 
 Es soll in den bereits bestehenden Web-Server integriert werden. Somit wird es bei der CarRent-Software um eine Webapplikation handeln.
 
+![](docs/Images/Context.png)
+
 ### Container
 
 Da der bereits bestehende Web-Server verwendet werden soll, wird es sich bei der CarRent-Software defintiiv um eine Webapplikation handeln.
