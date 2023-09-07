@@ -29,3 +29,19 @@ Das System besteht aus den in folgendem Bild sichtbaren Komponenten.
 ### Domain Model
 
 ![](docs/Images/Domain_Model.png)
+
+### Use-Cases
+
+![](docs/Images/Use_Cases.png)
+
+Die einzelnen Use-Cases im Brief-Format:
+
+- UC 01: Kunde bearbeiten: Der Sachbearbeiter erfasst, mutiert oder sucht nach den Kundendaten. (CRUD = create, read, update, delete)
+- UC 02: Auto bearbeiten: Der Sachbearbeiter erfasst, mutiert oder sucht nach den Autodaten. (CRUD = create, read, update, delete)
+- UC 03: Reservation erfassen: Der Sachbearbeiter tätigt aufgrund der Informationen des Kunden (Kategorie des Autos, Start- und Enddatum) eine Reservation. Dabei regestiert er das Reservationsdatum, den Zeitbereich sowie die Kategorie des gewünschten Autos.
+- UC 04: Mietvertrag erstellen: Wenn der Kunde am besagten Tag der Autoausleihe vorbeikommt, wird vom Sachbearbeiter ein Mietvertrag erstellt und mit dem gewünschten Auto der ausgewählten Kategorie verknüpft.
+- UC 05: Reservation stornieren: Wenn der Kunde am besagten Tag nicht kommt, oder bereits vorher per Telefon oder Mail absagt, storniert der Sachbearbeiter die Reservation, in dem diese entfernt wird.
+
+### Deployment View
+
+![](docs/Images/Deployment_View.png)
