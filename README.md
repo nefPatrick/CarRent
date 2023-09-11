@@ -45,3 +45,6 @@ Die einzelnen Use-Cases im Brief-Format:
 ### Deployment View
 
 ![](docs/Images/Deployment_View.png)
+
+### Class Diagram
+![](docs/Images/Class_Diagram.png)
