@@ -25,6 +25,11 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var scope = app.Services.CreateScope();
+
+var scopeContext = scope.ServiceProvider.GetService<CarRentContext>();
+scopeContext!.Database.EnsureCreated();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) {
   app.UseSwagger();
